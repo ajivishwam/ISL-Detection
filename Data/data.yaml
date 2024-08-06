@@ -1,0 +1,28 @@
+
+path: D:/Thesis/Data_20_v1 # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+test: # test images (optional)
+
+# Classes
+names:
+  0: Afraid  
+  1: Agree  
+  2: Assistance  
+  3: Bad  
+  4: Become  
+  5: College  
+  6: Doctor  
+  7: From  
+  8: Pain  
+  9: Pray  
+  10: Secondary  
+  11: Skin  
+  12: Small 
+  13: Specific  
+  14: Stand  
+  15: Today  
+  16: Warn  
+  17: Which
+  18: Work  
+  19: You
