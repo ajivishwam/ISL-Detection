@@ -1,5 +1,5 @@
 
-path: D:/Thesis/Data_20_v1 # dataset root dir
+path: /content/ISL-Detection/Data # dataset root dir
 train: images/train # train images (relative to 'path')
 val: images/val # val images (relative to 'path')
 test: images/test # test images (optional)
