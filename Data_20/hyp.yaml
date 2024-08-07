@@ -1,0 +1,14 @@
+# hyp.yaml
+lr0: 0.001  # initial learning rate
+optimizer: AdamW  # optimizer
+hsv_h: 0.015  # image HSV-Hue augmentation (fraction)
+hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)
+hsv_v: 0.4  # image HSV-Value augmentation (fraction)
+degrees: 5.0  # image rotation (+/- deg)
+translate: 0.1  # image translation (+/- fraction)
+scale: 0.5  # image scale (+/- gain)
+shear: 2.0  # image shear (+/- deg)
+mosaic: 1.0  # mosaic augmentation (probability)
+mixup: 0.2  # mixup augmentation (probability)
+warmup_epochs: 5.0  # warmup epochs (fractions)
+cos_lr: True  # cosine learning rate
